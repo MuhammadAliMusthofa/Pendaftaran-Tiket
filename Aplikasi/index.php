@@ -55,15 +55,15 @@
 <html>
 <head>
 	<title>Jadwal Penerbangan</title>
-	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/style.css" type="text/CSS">
 </head>
-<body>
-	<img src="img/pesawat.jfif">
+<body >
+	<img src="img/sky.jpg" style="width:100%">
 	<h1>Pendaftaran Rute Penerbangan</h1>
 
 	<!-- Form Pendaftaran Rute Penerbangan -->
 	<form action="index.php" method="post">
-		<table width="700px">
+		<table width="600px">
 			<tr>
 				<td width="20%"><label>Maskapai</label></td>
 				<td>:</td>
@@ -130,7 +130,7 @@
 
 	<!-- Menampilkan Daftar Maskapai Beserta Rute Penerbangannya -->
 	<h1>Daftar Rute Tersedia</h1>
-	<table border="1px" width="800px">
+	<table border="1px" width="700px">
 		<thead>
 			<tr>
 				<th>Maskapai</th>
